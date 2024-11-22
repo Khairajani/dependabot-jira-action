@@ -1,6 +1,6 @@
 name: 'Dependabot JIRA Action'
 description: 'Creates JIRA issues from dependabot alerts'
-author: 'Sprout Tech LLC'
+author: 'Khairajani Author'
 inputs:
   jiraIssueLabel:
     required: true
