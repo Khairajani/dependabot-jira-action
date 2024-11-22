@@ -322,8 +322,8 @@ function jiraApiSearch({ jql }) {
             }
         }
         catch (e) {
-            core.error('Error getting the existing issue');
-            throw new Error('Error getting the existing issue');
+            core.error(`Error getting the existing issue: ${e instanceof Error ? e.message : e}`);
+            throw new Error(`Error getting the existing issue: ${e instanceof Error ? e.message : e}`);
         }
     });
 }
