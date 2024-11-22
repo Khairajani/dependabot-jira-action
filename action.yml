@@ -22,7 +22,7 @@ inputs:
     description: 'Owner of the repo'
     default: "repo-name"
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
 branding:
   icon: 'copy'
