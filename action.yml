@@ -16,11 +16,11 @@ inputs:
   githubRepo:
     required: true
     description: 'Repo to look for dependabot pulls'
-    default: "repo-name"
+    default: "code_scan"
   githubOwner:
     required: true
     description: 'Owner of the repo'
-    default: "repo-name"
+    default: "Khairajani"
 runs:
   using: 'node20'
   main: 'dist/index.js'
