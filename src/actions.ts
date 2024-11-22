@@ -26,7 +26,7 @@ export function extractIssueNumber(description: string): string {
 }
 
 export function createIssueNumberString(pullNumber: string): string {
-  return `PULL_NUMBER_${pullNumber}_PULL_NUMBER`
+  return `Pull number: ${pullNumber}`
 }
 
 export async function syncJiraWithOpenDependabotPulls(
