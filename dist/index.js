@@ -55,7 +55,7 @@ function extractIssueNumber(description) {
 }
 exports.extractIssueNumber = extractIssueNumber;
 function createIssueNumberString(pullNumber) {
-    return `PULL_NUMBER_${pullNumber}_PULL_NUMBER`;
+    return `Pull number: ${pullNumber}`;
 }
 exports.createIssueNumberString = createIssueNumberString;
 function syncJiraWithOpenDependabotPulls(params) {
